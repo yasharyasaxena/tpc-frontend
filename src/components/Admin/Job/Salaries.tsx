@@ -549,7 +549,7 @@ const Salaries = ({
             <div className="mx-2 my-2">
               <span
                 className={`inline-block border-2 p-2 px-6 rounded-full font-semibold shadow-sm transition-colors duration-200 ${
-                  salary.isBacklogAllowed
+                  salary.isBacklogAllowed === "ACTIVE"
                     ? "bg-green-50 border-green-400 text-green-700"
                     : "bg-red-50 border-red-400 text-red-700"
                 }`}
